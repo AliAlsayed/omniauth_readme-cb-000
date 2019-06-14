@@ -11,7 +11,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'dotenv-rails'
 gem 'sqlite3', '~>1.3.6'
-
+gem 'thin'
 group :development, :test do
   gem 'rack_session_access'
   gem "capybara"
